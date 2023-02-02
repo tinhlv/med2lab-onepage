@@ -1,0 +1,45 @@
+//variables
+:root {
+    --body-text: #666666;
+    --dark-blue: #023d7c;
+    --dark-grey: #111111;
+    --dark-green: #075f0d;
+    --dark-red: #8e1616;
+    --green: #429448;
+    --green-tint: #ecf7e6;
+    --header-text: #333333;
+    --light-blue-2: #0080ff;
+    --light-blue: #deeeff;
+    --light-grey: #cccccc;
+    --light-yellow: #fffbf1;
+    --red: #e60303;
+    --red-tint: #fde8e8;
+    --royal-purple: #55027c;
+    --white: #ffff;
+    --yellow: #fcb900;
+    --yellow-tint: #f9f1dc;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+//------------------------------------------------------------
+//    Screen
+//------------------------------------------------------------
+$width-site: 1170px;
+$screen-tb: 1279px;
+$screen-1200: 1200px;
+$screen-1024: 1024px;
+$screen-md: 991px;
+$screen-sm: 767px;
+$screen-xs-600: 600px;
+$screen-xs: 480px;
+
+//------------------------------------------------------------
+//    Custom Boostrap
+//------------------------------------------------------------
+.container {
+    max-width: $width-site;
+}
+
+

@@ -1,0 +1,21 @@
+.main-content {
+    height: 600px;
+}
+
+.partners_section {
+    height: 190px;
+    background-color: #c4e4fc;
+    padding: 50px 0 40px;
+    border-top: 4px solid rgba(2,61,124, 0.56);
+    border-bottom: 4px solid rgba(2,61,124, 0.56);
+    .partnersList {
+        &__item {
+            padding: 10px;
+        }
+    }
+}
+
+.heading_section {
+    text-align: center;
+    margin-bottom: 15px;
+}

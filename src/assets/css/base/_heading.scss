@@ -1,0 +1,16 @@
+.heading {
+    font-family: "Poppins-Medium";
+    color: var(--dark-grey);
+    &__heading-h1 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+    &__heading-h2 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    &__heading-h3 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
