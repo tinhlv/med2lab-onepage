@@ -17,7 +17,7 @@ const BannerSection = () => (
                     </div>
                 </div>
                 <div className="col-lg-5"></div>
-                <Image className="img-baner-right" src={imageRight} fluid alt="logo"/>
+                <Image className="img-baner-right" src={imageRight} fluid alt="banner"/>
             </div>
             <div className='form-request'>
                 <p className="form-request__heading">Get a live demo of with the Med2Lab team</p>

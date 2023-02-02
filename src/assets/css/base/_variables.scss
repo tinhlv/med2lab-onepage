@@ -20,9 +20,21 @@
     --yellow-tint: #f9f1dc;
 }
 
+// ----------------------------------------------------------------------
+// Font-family
+// ----------------------------------------------------------------------
+$default-font: "Poppins", sans-serif !important;
+
 html {
     scroll-behavior: smooth;
 }
+
+body {
+    color: var(--body-text);
+    font-family: $default-font;
+    font-weight: 500;
+}
+
 //------------------------------------------------------------
 //    Screen
 //------------------------------------------------------------
@@ -41,5 +53,3 @@ $screen-xs: 480px;
 .container {
     max-width: $width-site;
 }
-
-
