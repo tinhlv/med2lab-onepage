@@ -1,18 +1,94 @@
-.main-content {
-    height: 600px;
-}
-
 .partners_section {
     height: 190px;
     background-color: #c4e4fc;
     padding: 50px 0 40px;
-    border-top: 4px solid rgba(2,61,124, 0.56);
-    border-bottom: 4px solid rgba(2,61,124, 0.56);
+    border-top: 4px solid rgba(2, 61, 124, 0.56);
+    border-bottom: 4px solid rgba(2, 61, 124, 0.56);
     .partnersList {
         &__item {
             padding: 10px;
         }
     }
+}
+
+// ----------------------------------------------------------------------
+// LMS Intro Section
+// ----------------------------------------------------------------------
+.lms-intro-section {
+    margin-top: 80px;
+    .sys-panel {
+        border-radius: 16px;
+        border: 3px solid var(--dark-blue);
+        background-color: var(--dark-blue);
+        box-shadow: 0 16px 24px rgba(0, 0, 0, 0.08), 0 8px 16px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.24);
+        margin-bottom: 60px;
+        &__heading-sm {
+            padding: 3px 15px;
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        &__heading-lg {
+            padding: 5px 15px;
+            font-size: 28px;
+            font-weight: 500;
+            color: var(--dark-blue);
+            border-radius: 16px;
+            border: 3px solid var(--dark-blue);
+            background-color: white;
+            @include flexbox();
+            @include align-items(center);
+            &--icon {
+                font-size: 48px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+// ----------------------------------------------------------------------
+// quote section
+// ----------------------------------------------------------------------
+.lms-quote-section {
+    margin-top: 80px;
+    .sys-panel {
+        border-radius: 16px;
+        border: 3px solid var(--dark-blue);
+        background-color: var(--dark-blue);
+        box-shadow: 0 16px 24px rgba(0, 0, 0, 0.08), 0 8px 16px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.24);
+        margin-bottom: 60px;
+        &__heading-sm {
+            padding: 3px 15px;
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        &__heading-lg {
+            padding: 5px 15px;
+            font-size: 28px;
+            font-weight: 500;
+            color: var(--dark-blue);
+            border-radius: 16px;
+            border: 3px solid var(--dark-blue);
+            background-color: white;
+            @include flexbox();
+            @include align-items(center);
+            &--icon {
+                font-size: 48px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.section-mt-100 {
+    margin-top: 100px;
+}
+
+.text-paragraph {
+    color: var(--body-text);
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .heading_section {

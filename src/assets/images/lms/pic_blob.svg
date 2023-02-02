@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="366px" height="566px" viewBox="0 0 366 566" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Blob 2</title>
+    <g id="Homepage-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.557524182">
+        <g id="Homepage---Desktop-(WIP)" transform="translate(-855.000000, -3548.000000)" fill="#D4F3F8">
+            <g id="Section---LMS-Content" transform="translate(129.000000, 753.000000)">
+                <g id="Sub-Section---Patient-Satisfaction" transform="translate(2.000000, 2622.000000)">
+                    <g id="Blob-2" transform="translate(724.000000, 173.000000)">
+                        <path d="M206.77384,0 C153.676713,0 154.273826,132.733395 99.5700013,132.733395 C58.7886429,132.733395 10.524926,161.103253 10.524926,227.45343 C10.524926,293.803607 90.3623097,299.644773 90.3623097,355.407491 C90.3623097,411.170209 0,379.144324 0,445.456745 C0,511.769166 35.1161598,566 161.393074,566 C287.669988,566 365.178638,468.440027 365.178638,405.895357 C365.178638,343.350687 262.677682,305.764777 267.281528,250.684415 C271.885374,195.604052 348.177676,220.559754 348.835368,116.532064 C349.49306,12.5043752 259.870967,0 206.77384,0 Z" id="Blob" transform="translate(182.589319, 283.000000) scale(-1, -1) translate(-182.589319, -283.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
