@@ -13,12 +13,12 @@ function MainNavbar() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <ul className="nav navbar-nav navbar-right ml-auto">
                         <li className="nav-item">
-                            <button eventKey="7" className="btn btn_primary">
+                            <button className="btn btn_primary">
                                 Request Demo <span className="icon-arrow-right ml-2"></span>
                             </button>
                         </li>
                         <li className="nav-item ml-2">
-                            <button eventKey="7" className="btn btn_white">
+                            <button className="btn btn_white">
                                 Login <span className="icon-arrow-right ml-2"></span>
                             </button>
                         </li>

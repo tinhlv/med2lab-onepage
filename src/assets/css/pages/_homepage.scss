@@ -47,10 +47,21 @@
 }
 
 // ----------------------------------------------------------------------
-// quote section
+// Quote Section
 // ----------------------------------------------------------------------
 .lms-quote-section {
     margin-top: 80px;
+    .postiton-bubble {
+        position: absolute;
+        left: 135px;
+        top: -80px;
+    }
+    .path-top {
+        position: absolute;
+        left: -56%;
+        top: -45%;
+        z-index: -1;
+    }
     .sys-panel {
         border-radius: 16px;
         border: 3px solid var(--dark-blue);
@@ -81,6 +92,117 @@
     }
 }
 
+// ----------------------------------------------------------------------
+// Ensure Compliance Section
+// ----------------------------------------------------------------------
+.ensure-compliance-section {
+    margin-top: 80px;
+    .path-top {
+        position: absolute;
+        left: 20%;
+        top: -33%;
+        z-index: -1;
+    }
+}
+
+// ----------------------------------------------------------------------
+// Virtual Preceptor Section
+// ----------------------------------------------------------------------
+.virtual-preceptor-section {
+    margin-top: 150px;
+    .path-top {
+        position: absolute;
+        left: 50%;
+        top: -23%;
+        z-index: -1;
+    }
+}
+
+// ----------------------------------------------------------------------
+// Patient Satisfaction Section
+// ----------------------------------------------------------------------
+.patient-satisfaction-section {
+    margin-top: 110px;
+    .path-top {
+        position: absolute;
+        left: -60%;
+        top: -24%;
+        z-index: -1;
+    }
+}
+
+// ----------------------------------------------------------------------
+// bubble
+// ----------------------------------------------------------------------
+.bubble-box {
+    &__avatar {
+        width: 140px;
+        height: 140px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+        box-shadow: 0 0 0 2px var(--dark-blue) inset, 0 0 0 4px #fff inset;
+        margin-bottom: 12px;
+    }
+    &__name {
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--dark-blue);
+    }
+    &__role {
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--dark-blue);
+    }
+}
+
+/*Right triangle, placed bottom left side slightly in*/
+.talk-bubble {
+    margin-left: 50px;
+    display: inline-block;
+    position: relative;
+    height: auto;
+    background-color: var(--light-blue);
+    &.border-box {
+        border: 5px solid var(--dark-blue);
+    }
+    &.round {
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+    }
+    .talktext {
+        padding: 24px;
+    }
+}
+
+.tri-right.border-box.btm-left-in {
+    &:before {
+        content: " ";
+        position: absolute;
+        left: -35px;
+        top: auto;
+        bottom: 0;
+        border-top: 30px solid transparent;
+        border-right: 35px solid var(--dark-blue);
+        border-left: none;
+    }
+    &:after {
+        content: " ";
+        position: absolute;
+        left: -23px;
+        top: unset;
+        bottom: 5px;
+        border-top: 20px solid transparent;
+        border-right: 25px solid var(--light-blue);
+        border-left: none;
+    }
+}
+
+// ----------------------------------------------------------------------
+// Margin section
+// ----------------------------------------------------------------------
 .section-mt-100 {
     margin-top: 100px;
 }

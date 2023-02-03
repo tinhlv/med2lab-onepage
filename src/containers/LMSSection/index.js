@@ -5,6 +5,11 @@ import imagequote from '../../assets/images/lms/pic_lms_quote.png'
 import imageEnsureCompliance from '../../assets/images/lms/pic_ensure_compliance.png'
 import imageVirtualPreceptor from '../../assets/images/lms/pic_virtual_preceptor.png'
 import imageBlob from '../../assets/images/lms/pic_blob.svg'
+import imageTeam01 from '../../assets/images/team/pic_team_01.png'
+import imagePath01 from '../../assets/images/path/pic_path_1.svg'
+import imagePath02 from '../../assets/images/path/pic_path_2.svg'
+import imagePath03 from '../../assets/images/path/pic_path_3.svg'
+import imagePath04 from '../../assets/images/path/pic_path_4.svg'
 
 const lmsSection = () => (
     <div className="lms-section">
@@ -29,22 +34,42 @@ const lmsSection = () => (
                 </div>
             </div>
         </div>
-        <div className="lms-quote-section section-mt-100">
+        <div className="lms-quote-section">
             <div className="container">
-                <div className="row">
+                <div className="row position-relative">
                     <div className="col-md-6 text-left">
                         <Image src={imagequote} fluid alt="quote" />
                     </div>
                     <div className="col-md-6">
-                        Content.....
+                        <div className="bubble-box position-relative">
+                            <Image className="path-top" src={imagePath01} fluid alt="path-top" />
+                            <div class="talk-bubble tri-right border-box round btm-left-in postiton-bubble">
+                                <div class="talktext">
+                                    <p>Med2Lab’s innovate tool overcomes the current curricullar challenges of scale and standardised assesment in teaching-and-learning of clinical reasoning</p>
+                                </div>
+                            </div>
+                            <div
+                                className="bubble-box__avatar"
+                                style={{
+                                    backgroundImage: `url(${imageTeam01})`
+                                }}
+                            ></div>
+                            <div className="bubble-box__name">
+                                Dr. Jian Yi Soh
+                            </div>
+                            <div className="bubble-box__role">
+                                National University of Singapore Tong Youg Lin School of Medicine
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div className="ensure-compliance-section section-mt-100">
+        <div className="ensure-compliance-section">
             <div className="container">
                 <div className="row flex-row-reverse">
-                    <div className="col-md-6 text-right">
+                    <div className="col-md-6 text-right position-relative">
+                        <Image className="path-top" src={imagePath02} fluid alt="path-top" />
                         <Image src={imageEnsureCompliance} fluid alt="Ensure Compliance" />
                     </div>
                     <div className="col-md-6">
@@ -54,10 +79,11 @@ const lmsSection = () => (
                 </div>
             </div>
         </div>
-        <div className="virtual-preceptor-section section-mt-100">
+        <div className="virtual-preceptor-section">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 text-left">
+                    <div className="col-md-6 text-left position-relative">
+                        <Image className="path-top" src={imagePath03} fluid alt="path-top" />
                         <Image src={imageVirtualPreceptor} fluid alt="Virtual Preceptor" />
                     </div>
                     <div className="col-md-6">
@@ -70,15 +96,16 @@ const lmsSection = () => (
                 </div>
             </div>
         </div>
-        <div className="patient-satisfaction-section section-mt-100">
+        <div className="patient-satisfaction-section">
             <div className="container">
                 <div className="row flex-row-reverse">
-                    <div className="col-md-6 text-left">
+                    <div className="col-md-6 text-left position-relative">
+                        <Image className="path-top" src={imagePath04} fluid alt="path-top" />
                         <Image src={imageBlob} fluid alt="blob" />
                     </div>
                     <div className="col-md-6">
                         <h3 className="heading heading-lg">Improve patient satisfaction, reduce conflicts and  medical errors</h3>
-                        <div className="text-paragraph mt-5">
+                       <div className="text-paragraph mt-5">
                             <p>Coach key skills, like communication. to improve patient satisfaction and adherence. I think we need something else to go along here to make this a little bit longer a paragraph</p>
                         </div>
                     </div>
