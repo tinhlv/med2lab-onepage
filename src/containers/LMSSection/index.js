@@ -10,13 +10,14 @@ import imagePath01 from '../../assets/images/path/pic_path_1.svg'
 import imagePath02 from '../../assets/images/path/pic_path_2.svg'
 import imagePath03 from '../../assets/images/path/pic_path_3.svg'
 import imagePath04 from '../../assets/images/path/pic_path_4.svg'
+import imagePath05 from '../../assets/images/path/pic_path_5.svg'
 
 const lmsSection = () => (
     <div className="lms-section">
         <div className="lms-intro-section">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 text-center">
                         <Image src={imageLms} fluid alt="lms" />
                     </div>
                     <div className="col-md-6">
@@ -36,15 +37,15 @@ const lmsSection = () => (
         </div>
         <div className="lms-quote-section">
             <div className="container">
-                <div className="row position-relative">
-                    <div className="col-md-6 text-left">
+                <div className="row">
+                    <div className="col-md-6 text-center">
                         <Image src={imagequote} fluid alt="quote" />
                     </div>
                     <div className="col-md-6">
                         <div className="bubble-box position-relative">
                             <Image className="path-top" src={imagePath01} fluid alt="path-top" />
-                            <div class="talk-bubble tri-right border-box round btm-left-in postiton-bubble">
-                                <div class="talktext">
+                            <div className="talk-bubble tri-right border-box round btm-left-in postiton-bubble">
+                                <div className="talktext">
                                     <p>Med2Lab’s innovate tool overcomes the current curricullar challenges of scale and standardised assesment in teaching-and-learning of clinical reasoning</p>
                                 </div>
                             </div>
@@ -58,7 +59,7 @@ const lmsSection = () => (
                                 Dr. Jian Yi Soh
                             </div>
                             <div className="bubble-box__role">
-                                National University of Singapore Tong Youg Lin School of Medicine
+                                National University of Singapore Tong <br/> Youg Lin School of Medicine
                             </div>
                         </div>
                     </div>
@@ -68,7 +69,7 @@ const lmsSection = () => (
         <div className="ensure-compliance-section">
             <div className="container">
                 <div className="row flex-row-reverse">
-                    <div className="col-md-6 text-right position-relative">
+                    <div className="col-md-6 text-center position-relative">
                         <Image className="path-top" src={imagePath02} fluid alt="path-top" />
                         <Image src={imageEnsureCompliance} fluid alt="Ensure Compliance" />
                     </div>
@@ -82,7 +83,7 @@ const lmsSection = () => (
         <div className="virtual-preceptor-section">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 text-left position-relative">
+                    <div className="col-md-6 text-center position-relative">
                         <Image className="path-top" src={imagePath03} fluid alt="path-top" />
                         <Image src={imageVirtualPreceptor} fluid alt="Virtual Preceptor" />
                     </div>
@@ -99,18 +100,49 @@ const lmsSection = () => (
         <div className="patient-satisfaction-section">
             <div className="container">
                 <div className="row flex-row-reverse">
-                    <div className="col-md-6 text-left position-relative">
+                    <div className="col-md-6 text-center position-relative">
                         <Image className="path-top" src={imagePath04} fluid alt="path-top" />
                         <Image src={imageBlob} fluid alt="blob" />
                     </div>
                     <div className="col-md-6">
-                        <h3 className="heading heading-lg">Improve patient satisfaction, reduce conflicts and  medical errors</h3>
+                        <h3 className="heading heading-lg">Improve patient satisfaction, reduce conflicts and medical errors</h3>
                        <div className="text-paragraph mt-5">
                             <p>Coach key skills, like communication. to improve patient satisfaction and adherence. I think we need something else to go along here to make this a little bit longer a paragraph</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div className="lms-quote-section mb-5">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-6 position-relative">
+                        <div className="bubble-box position-relative">
+                            <Image className="path-top-2" src={imagePath05} fluid alt="path-top" />
+                            <div className="talk-bubble tri-right border-box round btm-left-in postiton-bubble">
+                                <div className="talktext">
+                                    <p>Brings innovation to assessing trainees proficency in systematic reasoning theory and in their application of that knowledge</p>
+                                </div>
+                            </div>
+                            <div
+                                className="bubble-box__avatar"
+                                style={{
+                                    backgroundImage: `url(${imageTeam01})`
+                                }}
+                            ></div>
+                            <div className="bubble-box__name">
+                                Dr. Jian Yi Soh
+                            </div>
+                            <div className="bubble-box__role">
+                                National University of Singapore Tong <br/> Youg Lin School of Medicine
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="contact-section my-5">
+            Demo....
         </div>
     </div>
 )
