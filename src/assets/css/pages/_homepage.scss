@@ -138,6 +138,36 @@
 }
 
 // ----------------------------------------------------------------------
+// Contact Section
+// ----------------------------------------------------------------------
+.contact-section {
+    max-width: 1200px;
+    background-image: url("../../images/pic_contact@2x.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 64px;
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    .path-top {
+        position: absolute;
+        right: 22%;
+        top: -50%;
+        z-index: -1;
+    }
+    .form-request {
+        margin: 24px 0;
+    }
+    .text-green {
+        color: var(--green);
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+}
+
+// ----------------------------------------------------------------------
 // bubble
 // ----------------------------------------------------------------------
 .bubble-box {

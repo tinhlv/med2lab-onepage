@@ -19,7 +19,7 @@ const BannerSection = () => (
                 <div className="col-lg-5"></div>
                 <Image className="img-baner-right" src={imageRight} fluid alt="banner"/>
             </div>
-            <div className='form-request'>
+            <div className='form-request margin-for-bottom'>
                 <p className="form-request__heading">Get a live demo of with the Med2Lab team</p>
                 <div className="email-form">
                     <input className="form-control email-form__input" type={`email`} placeholder="Enter your email address"/>

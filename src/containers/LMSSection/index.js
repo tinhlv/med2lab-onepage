@@ -11,6 +11,7 @@ import imagePath02 from '../../assets/images/path/pic_path_2.svg'
 import imagePath03 from '../../assets/images/path/pic_path_3.svg'
 import imagePath04 from '../../assets/images/path/pic_path_4.svg'
 import imagePath05 from '../../assets/images/path/pic_path_5.svg'
+import imagePath06 from '../../assets/images/path/pic_path_6.svg'
 
 const lmsSection = () => (
     <div className="lms-section">
@@ -141,8 +142,19 @@ const lmsSection = () => (
                 </div>
             </div>
         </div>
-        <div className="contact-section my-5">
-            Demo....
+        <div className="contact-section position-relative">
+            <Image className="path-top" src={imagePath06} fluid alt="path-top" />
+            <div className="container">
+                <h3 className="heading heading-lg">Contact the<br/> Med2Lab Team<br/> for a live demo</h3>
+                <div className='form-request'>
+                    <p className="form-request__heading">Get a live demo of with the Med2Lab team</p>
+                    <div className="email-form">
+                        <input className="form-control email-form__input" type={`email`} placeholder="Enter your email address"/>
+                        <button className="btn btn_primary email-form__btn">Request Demo <span className="icon-arrow-right ml-2"></span></button>
+                    </div>
+                </div>
+                <p><span className="text-green">Find out more about the Med2Lab team</span>, our experience and why we’re passionate about our products.</p>
+            </div>
         </div>
     </div>
 )
