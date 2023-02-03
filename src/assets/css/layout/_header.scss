@@ -44,8 +44,10 @@
     box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.08), 0px 8px 16px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.24);
     background-color: var(--yellow-tint);
     position: relative;
-    bottom: -60px;
     padding: 16px 24px 32px 24px;
+    &.margin-for-bottom {
+        bottom: -60px;
+    }
     &__heading {
         color: var(--dark-grey);
         font-size: 18px;
