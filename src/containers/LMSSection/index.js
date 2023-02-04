@@ -45,8 +45,8 @@ const lmsSection = () => (
                     <div className="col-md-6">
                         <div className="bubble-box position-relative">
                             <Image className="path-top" src={imagePath01} fluid alt="path-top" />
-                            <div className="talk-bubble tri-right border-box round btm-left-in postiton-bubble">
-                                <div className="talktext">
+                            <div className="bubble-arr-box arrow bl round bubble-ps-top">
+                                <div className="content">
                                     <p>Med2Lab’s innovate tool overcomes the current curricullar challenges of scale and standardised assesment in teaching-and-learning of clinical reasoning</p>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ const lmsSection = () => (
                                 Dr. Jian Yi Soh
                             </div>
                             <div className="bubble-box__role">
-                                National University of Singapore Tong <br/> Youg Lin School of Medicine
+                                National University of Singapore Tong <br /> Youg Lin School of Medicine
                             </div>
                         </div>
                     </div>
@@ -107,7 +107,7 @@ const lmsSection = () => (
                     </div>
                     <div className="col-md-6">
                         <h3 className="heading heading-lg">Improve patient satisfaction, reduce conflicts and medical errors</h3>
-                       <div className="text-paragraph mt-5">
+                        <div className="text-paragraph mt-5">
                             <p>Coach key skills, like communication. to improve patient satisfaction and adherence. I think we need something else to go along here to make this a little bit longer a paragraph</p>
                         </div>
                     </div>
@@ -120,8 +120,8 @@ const lmsSection = () => (
                     <div className="col-md-6 position-relative">
                         <div className="bubble-box position-relative">
                             <Image className="path-top-2" src={imagePath05} fluid alt="path-top" />
-                            <div className="talk-bubble tri-right border-box round btm-left-in postiton-bubble">
-                                <div className="talktext">
+                            <div className="bubble-arr-box arrow bl bubble-ps-top">
+                                <div className="content">
                                     <p>Brings innovation to assessing trainees proficency in systematic reasoning theory and in their application of that knowledge</p>
                                 </div>
                             </div>
@@ -135,7 +135,7 @@ const lmsSection = () => (
                                 Dr. Jian Yi Soh
                             </div>
                             <div className="bubble-box__role">
-                                National University of Singapore Tong <br/> Youg Lin School of Medicine
+                                National University of Singapore Tong <br /> Youg Lin School of Medicine
                             </div>
                         </div>
                     </div>
@@ -145,11 +145,11 @@ const lmsSection = () => (
         <div className="contact-section position-relative">
             <Image className="path-top" src={imagePath06} fluid alt="path-top" />
             <div className="container">
-                <h3 className="heading heading-lg">Contact the<br/> Med2Lab Team<br/> for a live demo</h3>
+                <h3 className="heading heading-lg">Contact the<br /> Med2Lab Team<br /> for a live demo</h3>
                 <div className='form-request'>
                     <p className="form-request__heading">Get a live demo of with the Med2Lab team</p>
                     <div className="email-form">
-                        <input className="form-control email-form__input" type={`email`} placeholder="Enter your email address"/>
+                        <input className="form-control email-form__input" type={`email`} placeholder="Enter your email address" />
                         <button className="btn btn_primary email-form__btn">Request Demo <span className="icon-arrow-right ml-2"></span></button>
                     </div>
                 </div>
