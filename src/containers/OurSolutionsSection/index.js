@@ -2,7 +2,6 @@ import React from 'react'
 import { Image } from 'react-bootstrap'
 import logo01 from '../../assets/images/solutions/pic_solution_01.png';
 import logo02 from '../../assets/images/solutions/pic_solution_02.png';
-import logo03 from '../../assets/images/solutions/pic_solution_03.png';
 
 //slick slider
 import Slider from "react-slick";
@@ -49,33 +48,13 @@ const Responsive = () => {
     return (
         <Slider className="solutionsList" {...settings}>
             <div className="solutionsList__item">
-                <a href='' title=''>
-                    <Image className="img-baner-right" src={logo01} fluid alt="logo" />
+                <a href='https://www.ucr.med2lab.com' target="_blank" title='UCR - An Interactive Curriculum For Universal Clinical Reasoning'>
+                    <Image className="img-baner-right" src={logo01} fluid alt="ucr" />
                 </a>
             </div>
             <div className="solutionsList__item">
-                <a href='' title=''>
-                    <Image className="img-baner-right" src={logo02} fluid alt="logo" />
-                </a>
-            </div>
-            <div className="solutionsList__item">
-                <a href='' title=''>
-                    <Image className="img-baner-right" src={logo03} fluid alt="logo" />
-                </a>
-            </div>
-            <div className="solutionsList__item">
-                <a href='' title=''>
-                    <Image className="img-baner-right" src={logo01} fluid alt="logo" />
-                </a>
-            </div>
-            <div className="solutionsList__item">
-                <a href='' title=''>
-                    <Image className="img-baner-right" src={logo02} fluid alt="logo" />
-                </a>
-            </div>
-            <div className="solutionsList__item">
-                <a href='' title=''>
-                    <Image className="img-baner-right" src={logo03} fluid alt="logo" />
+                <a href='https://www.kachi.med2lab.com' target="_blank" title='kachi.med2lab.com'>
+                    <Image className="img-baner-right" src={logo02} fluid alt="kachi" />
                 </a>
             </div>
         </Slider>

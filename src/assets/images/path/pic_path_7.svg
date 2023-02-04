@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="808px" height="285px" viewBox="0 0 808 285" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 39</title>
+    <defs>
+        <path d="M16,0 L64,0 C72.836556,-1.623249e-15 80,7.163444 80,16 L80,72 L80,72 L16,72 C7.163444,72 -6.94190838e-16,64.836556 0,56 L0,16 C-1.082166e-15,7.163444 7.163444,1.623249e-15 16,0 Z" id="path-1"></path>
+        <filter x="-33.8%" y="-29.2%" width="167.5%" height="175.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Homepage-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage---Desktop-(WIP)" transform="translate(-464.000000, -6043.000000)">
+            <g id="Section---Out-Team" transform="translate(137.000000, 5263.000000)">
+                <g id="Sub-Section---CEO---About-Bao" transform="translate(0.000000, 381.000000)">
+                    <g id="Group-3" transform="translate(329.000000, 399.000000)">
+                        <path d="M0,0 L0,107.141492 C-6.78077756e-14,133.65116 21.490332,155.141492 48,155.141492 L702,155.141492 C728.509668,155.141492 750,176.631824 750,203.141492 L750,285 L750,285" id="Path-17" stroke="#FCB900" stroke-width="4"></path>
+                        <g id="Group" transform="translate(710.000000, 131.000000)">
+                            <g id="speech-bubble" transform="translate(40.000000, 36.000000) scale(-1, 1) translate(-40.000000, -36.000000) ">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <path stroke="#FFFFFF" stroke-width="4" d="M64,2 C67.8659932,2 71.3659932,3.56700338 73.8994949,6.10050506 C76.4329966,8.63400675 78,12.1340068 78,16 L78,70 L16,70 C12.1340068,70 8.63400675,68.4329966 6.10050506,65.8994949 C3.56700338,63.3659932 2,59.8659932 2,56 L2,16 C2,12.1340068 3.56700338,8.63400675 6.10050506,6.10050506 C8.63400675,3.56700338 12.1340068,2 16,2 Z" stroke-linejoin="square" fill="#023D7C" fill-rule="evenodd"></path>
+                                <path stroke="#023D7C" stroke-width="2" d="M64,1 C68.1421356,1 71.8921356,2.67893219 74.6066017,5.39339828 C77.3210678,8.10786438 79,11.8578644 79,16 L79,71 L16,71 C11.8578644,71 8.10786438,69.3210678 5.39339828,66.6066017 C2.67893219,63.8921356 1,60.1421356 1,56 L1,16 C1,11.8578644 2.67893219,8.10786438 5.39339828,5.39339828 C8.10786438,2.67893219 11.8578644,1 16,1 Z" stroke-linejoin="square"></path>
+                            </g>
+                            <g id="Icons/Sentiment/To-Tell" transform="translate(16.000000, 11.959000)">
+                                <rect id="Bounds" x="0" y="0" width="48" height="48"></rect>
+                                <g id="contact_support_FILL1_wght400_GRAD0_opsz40-(1)" transform="translate(7.200000, 3.600000)" fill="#FFFFFF" fill-rule="nonzero">
+                                    <path d="M16.7496,-1.0658141e-15 C21.5496,-1.0658141e-15 25.6244,1.6752 28.974,5.0256 C32.3244,8.3752 33.9996,12.4168 33.9996,17.1504 C33.9996,21.9168 32.3244,25.9752 28.974,29.3256 C25.6244,32.6752 21.5828,34.35 16.8492,34.35 L15.3492,34.35 L14.85,40.0008 C12.6164,38.8008 10.5828,37.3672 8.7492,35.7 C6.9164,34.0336 5.35,32.2004 4.05,30.2004 C2.75,28.2004 1.75,26.0836 1.05,23.85 C0.35,21.6172 0,19.3508 0,17.0508 C0,14.6172 0.4332,12.3672 1.2996,10.3008 C2.166,8.2336 3.3576,6.4336 4.8744,4.9008 C6.3912,3.3672 8.158,2.1672 10.1748,1.3008 C12.1916,0.4336 14.3832,-1.0658141e-15 16.7496,-1.0658141e-15 Z M17.1996,24.6504 C16.6668,24.6504 16.2088,24.842 15.8256,25.2252 C15.4416,25.6084 15.2496,26.0668 15.2496,26.6004 C15.2496,27.134 15.4416,27.5924 15.8256,27.9756 C16.2088,28.3588 16.6668,28.5504 17.1996,28.5504 C17.7668,28.5504 18.2336,28.3588 18.6,27.9756 C18.9664,27.5924 19.1496,27.134 19.1496,26.6004 C19.1496,26.0668 18.9664,25.6084 18.6,25.2252 C18.2336,24.842 17.7668,24.6504 17.1996,24.6504 Z M17.3496,7.8504 C15.9496,7.8504 14.7164,8.2252 13.65,8.9748 C12.5836,9.7252 11.8004,10.7172 11.3004,11.9508 L13.7496,12.9504 C14.0496,12.184 14.4996,11.5756 15.0996,11.1252 C15.6996,10.6756 16.4164,10.4508 17.25,10.4508 C18.2164,10.4508 18.9664,10.6924 19.5,11.1756 C20.0336,11.6588 20.3004,12.2672 20.3004,13.0008 C20.3004,13.6008 20.1252,14.1924 19.7748,14.7756 C19.4252,15.3588 18.8504,16.0504 18.0504,16.8504 C17.0832,17.8168 16.4748,18.5836 16.2252,19.1508 C15.9748,19.7172 15.8496,20.6336 15.8496,21.9 L18.5004,21.9 C18.5004,21 18.6252,20.3 18.8748,19.8 C19.1252,19.3 19.7336,18.5836 20.7,17.6508 C21.5,16.8508 22.0916,16.084 22.4748,15.3504 C22.858,14.6168 23.0496,13.8168 23.0496,12.9504 C23.0496,11.384 22.5164,10.1424 21.45,9.2256 C20.3836,8.3088 19.0168,7.8504 17.3496,7.8504 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
