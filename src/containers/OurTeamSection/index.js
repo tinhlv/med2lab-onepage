@@ -13,8 +13,8 @@ const OurTeamSection = () => (
                 <p className="teams-heading__desc">The Med2Lab team bring together a desire to increase patient saftey through improving healthcare workers learning experince</p>
             </div>
             <div className="teams-detail-section">
-                <div className="row">
-                    <div className="col-md-6 position-relative">
+                <div className="row teams-row">
+                    <div className="col-md-6 position-relative bg-team-left">
                         <div className="team-member-left">
                             <div
                                 className="team-member-left__avatar"
@@ -45,8 +45,8 @@ const OurTeamSection = () => (
                         </div>
                     </div>
                 </div>
-                <div className="row flex-row-reverse">
-                    <div className="col-md-6 position-relative">
+                <div className="row flex-row-reverse teams-row">
+                    <div className="col-md-6 position-relative bg-team-right">
                         <div className="team-member-right">
                             <div
                                 className="team-member-right__avatar"
@@ -59,8 +59,8 @@ const OurTeamSection = () => (
                                 <span className="content">Co-Founder & COO</span>
                             </div>
                         </div>
-                        <div className="bubble-ps-bottom">
-                            <div className="bubble-arr-box arrow tl">
+                        <div className="bubble-ps-bottom-coo">
+                            <div className="bubble-arr-box arrow tr">
                                 <div className="content">We want to make learing something that actually changes someones thinking or behaviour while also making that person feel supported in the process.</div>
                             </div>
                         </div>

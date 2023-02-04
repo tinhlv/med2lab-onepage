@@ -3,7 +3,6 @@ import { Image } from 'react-bootstrap'
 import logo01 from '../../assets/images/partners/pic_logo_01.png';
 import logo02 from '../../assets/images/partners/pic_logo_02.png';
 import logo03 from '../../assets/images/partners/pic_logo_03.png';
-import logo04 from '../../assets/images/partners/pic_logo_04.png';
 
 //slick slider
 import Slider from "react-slick";
@@ -62,31 +61,6 @@ const Responsive = () => {
             <div className="partnersList__item">
                 <a href='' title=''>
                     <Image className="img-baner-right" src={logo03} fluid alt="logo" />
-                </a>
-            </div>
-            <div className="partnersList__item">
-                <a href='' title=''>
-                    <Image className="img-baner-right" src={logo04} fluid alt="logo" />
-                </a>
-            </div>
-            <div className="partnersList__item">
-                <a href='' title=''>
-                    <Image className="img-baner-right" src={logo01} fluid alt="logo" />
-                </a>
-            </div>
-            <div className="partnersList__item">
-                <a href='' title=''>
-                    <Image className="img-baner-right" src={logo02} fluid alt="logo" />
-                </a>
-            </div>
-            <div className="partnersList__item">
-                <a href='' title=''>
-                    <Image className="img-baner-right" src={logo03} fluid alt="logo" />
-                </a>
-            </div>
-            <div className="partnersList__item">
-                <a href='' title=''>
-                    <Image className="img-baner-right" src={logo04} fluid alt="logo" />
                 </a>
             </div>
         </Slider>

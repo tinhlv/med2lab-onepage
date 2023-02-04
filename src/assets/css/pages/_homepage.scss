@@ -253,11 +253,32 @@
 // Team Detail Section
 // ----------------------------------------------------------------------
 .team_section {
+    .teams-row {
+        margin: 80px 0;
+    }
     .bubble-ps-bottom {
         position: relative;
         bottom: 90px;
         left: 197px;
         width: calc(100% - 200px);
+    }
+    .bubble-ps-bottom-coo {
+        position: relative;
+        bottom: 90px;
+        left: 0;
+        width: calc(100% - 200px);
+    }
+    .bg-team-left {
+        background-image: url("../../images/background/bg_team_left.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 0;
+    }
+    .bg-team-right {
+        background-image: url("../../images/background/bg_team_right.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 0;
     }
     .team-member-left {
         position: relative;
@@ -278,7 +299,8 @@
             box-shadow: 0 0 0 2px var(--dark-blue) inset, 0 0 0 4px #fff inset;
             background-color: var(--light-yellow);
             max-width: 291px;
-            border-radius: 0px 16px 16px 0px;
+            border-top-right-radius: 16px;
+            border-bottom-right-radius: 16px;
             padding-right: 40px;
             padding-left: 32px;
             position: absolute;
@@ -307,6 +329,7 @@
             border-radius: 50%;
             box-shadow: 0 0 0 2px var(--dark-blue) inset, 0 0 0 4px #fff inset;
             margin-bottom: 12px;
+            margin-left: auto;
         }
         &__role {
             font-weight: 500;
@@ -314,14 +337,15 @@
             box-shadow: 0 0 0 2px var(--dark-blue) inset, 0 0 0 4px #fff inset;
             background-color: var(--light-yellow);
             max-width: 291px;
-            border-radius: 0px 16px 16px 0px;
+            border-top-left-radius: 16px;
+            border-bottom-left-radius: 16px;
             padding-right: 40px;
             padding-left: 32px;
             position: absolute;
             top: 32px;
             left: 150px;
             z-index: -1;
-            text-align: justify;
+            text-align: right;
             .name {
                 font-size: 22px;
                 font-weight: 500;
@@ -405,8 +429,7 @@
         }
         &:after {
             bottom: 0;
-            border: 5px solid var(--dark-blue);
-            // border-width: 0 4px 3px 4px;
+            border: 6px solid var(--dark-blue);
         }
     }
     &.br {
@@ -434,24 +457,24 @@
             display: none;
         }
     }
-    // &.tr {
-    //     &:before,
-    //     &:after {
-    //         bottom: auto;
-    //         left: auto;
-    //         right: 20px;
-    //         top: -8px;
-    //         height: 19px;
-    //         transform: rotate(135deg) skew(-45deg);
-    //     }
-    //     &:before {
-    //         bottom: auto;
-    //         top: -9px;
-    //         width: 24px;
-    //         right: 21px;
-    //         box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.3);
-    //     }
-    // }
+    &.tr {
+        &:before,
+        &:after {
+            bottom: auto;
+            left: auto;
+            right: 0;
+            top: -15px;
+            height: 41px;
+            transform: rotate(-45deg) skew(45deg);
+        }
+        &:before {
+            bottom: auto;
+            top: -9px;
+            width: 29px;
+            right: 21px;
+            box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.3);
+        }
+    }
     > .content {
         position: relative;
         background-color: var(--light-blue);
