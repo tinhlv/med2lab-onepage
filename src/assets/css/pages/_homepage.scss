@@ -249,6 +249,47 @@
 }
 
 // ----------------------------------------------------------------------
+// Team Detail Section
+// ----------------------------------------------------------------------
+.team-member {
+    position: relative;
+    &__avatar {
+        width: 175px;
+        height: 175px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+        box-shadow: 0 0 0 2px var(--dark-blue) inset, 0 0 0 4px #fff inset;
+        margin-bottom: 12px;
+    }
+    &__role {
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--dark-blue);
+        box-shadow: 0 0 0 2px var(--dark-blue) inset, 0 0 0 4px #fff inset;
+        background-color: var(--light-yellow);
+        max-width: 291px;
+        border-radius: 0px 16px 16px 0px;
+        padding-right: 40px;
+        padding-left: 91px;
+        position: absolute;
+        top: 32px;
+        left: 100px;
+        z-index: -1;
+        text-align: justify;
+        &--name {
+            font-size: 22px;
+            font-weight: 500;
+        }
+        &--content {
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+}
+
+// ----------------------------------------------------------------------
 // bubble
 // ----------------------------------------------------------------------
 .bubble-box {
