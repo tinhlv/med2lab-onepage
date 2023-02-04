@@ -5,6 +5,7 @@ import PartnersSection from '../src/containers/PartnersSection'
 import LMSSection from '../src/containers/LMSSection'
 import OurSolutionsSection from '../src/containers/OurSolutionsSection'
 import OurTeamSection from '../src/containers/OurTeamSection'
+import ScheduleCallSection from '../src/containers/ScheduleCallSection'
 import FooterSection from '../src/containers/FooterSection'
 
 function index() {
@@ -16,6 +17,7 @@ function index() {
         <LMSSection />
         <OurSolutionsSection />
         <OurTeamSection />
+        <ScheduleCallSection />
       </div>
       <FooterSection />
     </MainLayout>
