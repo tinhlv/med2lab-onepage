@@ -1,9 +1,16 @@
+// ----------------------------------------------------------------------
+// Partners Section
+// ----------------------------------------------------------------------
 .partners_section {
     height: 190px;
     background-color: #c4e4fc;
     padding: 50px 0 40px;
     border-top: 4px solid rgba(2, 61, 124, 0.56);
     border-bottom: 4px solid rgba(2, 61, 124, 0.56);
+    .heading_section {
+        text-align: center;
+        margin-bottom: 15px;
+    }
     .partnersList {
         &__item {
             padding: 10px;
@@ -168,6 +175,80 @@
 }
 
 // ----------------------------------------------------------------------
+// Partners Section
+// ----------------------------------------------------------------------
+.solutions_section {
+    background-color: #c4e4fc;
+    padding: 50px 0 40px;
+    border-top: 4px solid rgba(2, 61, 124, 0.56);
+    border-bottom: 4px solid rgba(2, 61, 124, 0.56);
+    .heading_section {
+        margin-bottom: 24px;
+        text-align: center;
+    }
+    .partnersList {
+        &__item {
+            padding: 10px;
+        }
+    }
+}
+
+// ----------------------------------------------------------------------
+// Team Section
+// ----------------------------------------------------------------------
+.team_section {
+    margin: 80px 0;
+    .teams-heading {
+        &__title {
+            border-radius: 16px;
+            border: 3px solid var(--dark-blue);
+            opacity: 1;
+            background-color: var(--dark-blue);
+            margin: 0 auto;
+            display: inline-block;
+            margin-bottom: 40px;
+            .text-brand {
+                font-size: 18px;
+                font-weight: 600;
+                padding: 2px 16px;
+                color: #fff;
+            }
+            h3 {
+                color: var(--dark-blue);
+                font-size: 28px;
+                font-weight: 500;
+                border-radius: 16px;
+                border: 3px solid var(--dark-blue);
+                box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.08), 0px 8px 16px rgba(0, 0, 0, 0.16),
+                    0px 2px 4px rgba(0, 0, 0, 0.24);
+                background-color: var(--white);
+                padding: 8px 12px;
+                @include flexbox();
+                @include align-items(center);
+                @include justify-content(center);
+                &:before {
+                    content: "";
+                    width: 40px;
+                    height: 40px;
+                    background-image: url("../../images/team/icon_heading_team.png");
+                    display: block;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    margin-right: 10px;
+                }
+            }
+        }
+        &__desc {
+            max-width: 570px;
+            margin: 0 auto;
+            color: var(--dark-grey);
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }
+}
+
+// ----------------------------------------------------------------------
 // bubble
 // ----------------------------------------------------------------------
 .bubble-box {
@@ -247,9 +328,4 @@
     color: var(--body-text);
     font-size: 18px;
     line-height: 28px;
-}
-
-.heading_section {
-    text-align: center;
-    margin-bottom: 15px;
 }
