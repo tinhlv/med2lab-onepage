@@ -3,11 +3,9 @@ import { Image } from 'react-bootstrap'
 import imageTeam02 from '../../assets/images/team/pic_team_02.png'
 import imageTeam03 from '../../assets/images/team/pic_team_03.png'
 import imageTeam04 from '../../assets/images/team/pic_team_04.png'
-import imageTeamDefault from '../../assets/images/team/pic_team_default.png'
 
 import imagePath01 from '../../assets/images/path/pic_path_7.svg'
 import imagePath02 from '../../assets/images/path/pic_path_8.svg'
-import imagePath03 from '../../assets/images/path/pic_path_9.svg'
 
 const OurTeamSection = () => (
     <div className='team_section'>
@@ -40,6 +38,10 @@ const OurTeamSection = () => (
                         </div>
                     </div>
                     <div className="col-md-6">
+                        <div class="answerItem correct">
+                            <span class="answerItem__icon icon-correct"></span>
+                            <span class="answerItem__text">Clinical Fellow & Pediatric Resident Experience</span>
+                        </div>
                         <div className="team-content">
                             <p className="team-content__top">
                                 With experience ‘on the floor’, Bao has witnessed firsthand the dire need for more
@@ -74,6 +76,10 @@ const OurTeamSection = () => (
                         </div>
                     </div>
                     <div className="col-md-6">
+                        <div class="answerItem correct">
+                            <span class="answerItem__icon icon-correct"></span>
+                            <span class="answerItem__text">Trained Sociologist, researcher and educator</span>
+                        </div>
                         <div className="team-content">
                             <p className="team-content__top">
                                 As a trained sociologist, research and passionate educator, Kumiko is committed to helping

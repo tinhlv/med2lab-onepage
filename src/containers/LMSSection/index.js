@@ -75,7 +75,7 @@ const lmsSection = () => (
                         <Image src={imageEnsureCompliance} fluid alt="Ensure Compliance" />
                     </div>
                     <div className="col-md-6">
-                        <h3 className="heading heading-lg">Coach and assess mission critical and intangible skills of your workforce</h3>
+                        <h3 className="heading heading-lg">Coach and assess the intangible, mission-critical skills of your workforce</h3>
                         <div className="text-paragraph mt-5">Support your workforce with a scalable learning platform, utilising virtual preceptors to assess and coach intangible skills, like critical thinking and self-reflection, to enable the provision of high quality healthcare.</div>
                     </div>
                 </div>

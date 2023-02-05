@@ -20,11 +20,14 @@
     --yellow-tint: #f9f1dc;
 }
 
+$bg-correct: #ecf7e6;
+$color-correct: #429448;
+
 // ----------------------------------------------------------------------
 // Font-family
 // ----------------------------------------------------------------------
 $default-font: "Poppins", sans-serif !important;
-
+ 
 html {
     scroll-behavior: smooth;
 }
