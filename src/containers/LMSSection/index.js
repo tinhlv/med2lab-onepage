@@ -78,7 +78,8 @@ const lmsSection = () => (
                     <div className="col-md-6">
                         <h3 className="heading heading-lg">Quickly engage learners and improve care quality and patient safety</h3>
                         <div className="text-paragraph mt-5">
-                            Quickly capture knowledgebase and work-experience into highly relevant interactive training curricula that can be immediately applied to the workplace.
+                            <p>Quickly capture knowledgebase and work-experience into highly relevant interactive training curricula that can be immediately applied to the workplace.</p>
+                            <p>Work policies and documentation becomes engaging an assesable, ensuring complaince and fair reimbursement.</p>
                         </div>
                     </div>
                 </div>

@@ -82,7 +82,7 @@ const OurTeamSection = () => (
                         </div>
                         <div className="team-content">
                             <p className="team-content__top">
-                                As a trained sociologist, research and passionate educator, Kumiko is committed to helping
+                                As a trained sociologist, researcher and passionate educator, Kumiko is committed to helping
                                 empower learners in their continuous growth.
                             </p>
                             <div className="team-content__bottom">
