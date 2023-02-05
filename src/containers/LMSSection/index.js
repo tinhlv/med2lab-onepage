@@ -6,6 +6,7 @@ import imageEnsureCompliance from '../../assets/images/lms/pic_ensure_compliance
 import imageVirtualPreceptor from '../../assets/images/lms/pic_virtual_preceptor.png'
 import imageBlob from '../../assets/images/lms/pic_blob.svg'
 import imageTeam01 from '../../assets/images/team/pic_team_01.png'
+import imageTeam05 from '../../assets/images/team/pic_team_05.png'
 import imagePath01 from '../../assets/images/path/pic_path_1.svg'
 import imagePath02 from '../../assets/images/path/pic_path_2.svg'
 import imagePath03 from '../../assets/images/path/pic_path_3.svg'
@@ -47,7 +48,7 @@ const lmsSection = () => (
                             <Image className="path-top" src={imagePath01} fluid alt="path-top" />
                             <div className="bubble-arr-box arrow bl round bubble-ps-top">
                                 <div className="content">
-                                    <p>Med2Lab’s innovate tool overcomes the current curricullar challenges of scale and standardised assesment in teaching-and-learning of clinical reasoning</p>
+                                    <p>Med2Lab’s innovative tool overcomes the current curricular challenges of scale and standardization in the assessment of clinical reasoning.</p>
                                 </div>
                             </div>
                             <div
@@ -60,7 +61,7 @@ const lmsSection = () => (
                                 Dr. Jian Yi Soh
                             </div>
                             <div className="bubble-box__role">
-                                National University of Singapore Tong <br /> Youg Lin School of Medicine
+                                National University of Singapore Yong Loo Lin School of Medicine
                             </div>
                         </div>
                     </div>
@@ -75,8 +76,10 @@ const lmsSection = () => (
                         <Image src={imageEnsureCompliance} fluid alt="Ensure Compliance" />
                     </div>
                     <div className="col-md-6">
-                        <h3 className="heading heading-lg">Coach and assess the intangible, mission-critical skills of your workforce</h3>
-                        <div className="text-paragraph mt-5">Support your workforce with a scalable learning platform, utilising virtual preceptors to assess and coach intangible skills, like critical thinking and self-reflection, to enable the provision of high quality healthcare.</div>
+                        <h3 className="heading heading-lg">Quickly engage learners and improve care quality and patient safety</h3>
+                        <div className="text-paragraph mt-5">
+                            Quickly capture knowledgebase and work-experience into highly relevant interactive training curricula that can be immediately applied to the workplace.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,7 +92,7 @@ const lmsSection = () => (
                         <Image src={imageVirtualPreceptor} fluid alt="Virtual Preceptor" />
                     </div>
                     <div className="col-md-6">
-                        <h3 className="heading heading-lg">Utilize Human-in-the-loop AI technology providing scalability and standardization</h3>
+                        <h3 className="heading heading-lg">Bao, can you think of something appropriate to say here that encapsulate our AI tech?</h3>
                         <div className="text-paragraph mt-5">
                             <p>Our virtual preceptors and AI technology evaluate and provide feedback on clinical reasoning.</p>
                             <p>Our unique learning management system allows assesment of critical skill sets and matches the most qualified practioners with the best work assignments.</p>
@@ -122,20 +125,20 @@ const lmsSection = () => (
                             <Image className="path-top-2" src={imagePath05} fluid alt="path-top" />
                             <div className="bubble-arr-box arrow bl bubble-ps-top">
                                 <div className="content">
-                                    <p>Brings innovation to assessing trainees proficency in systematic reasoning theory and in their application of that knowledge</p>
+                                    <p>Working with Med2Lab has been so enjoyable because we care about the same thing: enabling learners to learn better.</p>
                                 </div>
                             </div>
                             <div
                                 className="bubble-box__avatar"
                                 style={{
-                                    backgroundImage: `url(${imageTeam01})`
+                                    backgroundImage: `url(${imageTeam05})`
                                 }}
                             ></div>
                             <div className="bubble-box__name">
-                                Dr. Jian Yi Soh
+                                Dr. Sharon F. Chen
                             </div>
                             <div className="bubble-box__role">
-                                National University of Singapore Tong <br /> Youg Lin School of Medicine
+                                Stanford School of Medicine
                             </div>
                         </div>
                     </div>
