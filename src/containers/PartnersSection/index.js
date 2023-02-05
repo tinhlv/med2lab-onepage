@@ -48,17 +48,17 @@ const Responsive = () => {
     };
     return (
         <Slider className="partnersList" {...settings}>
-            <div className="partnersList__item">
+            <div className="partnersList__item hover-grayscale">
                 <a href='' title=''>
                     <Image className="img-baner-right" src={logo01} fluid alt="logo" />
                 </a>
             </div>
-            <div className="partnersList__item">
+            <div className="partnersList__item hover-grayscale">
                 <a href='' title=''>
                     <Image className="img-baner-right" src={logo02} fluid alt="logo" />
                 </a>
             </div>
-            <div className="partnersList__item">
+            <div className="partnersList__item hover-grayscale">
                 <a href='' title=''>
                     <Image className="img-baner-right" src={logo03} fluid alt="logo" />
                 </a>
