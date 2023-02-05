@@ -38,9 +38,9 @@ const OurTeamSection = () => (
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <div class="answerItem correct">
-                            <span class="answerItem__icon icon-correct"></span>
-                            <span class="answerItem__text">Clinical Fellow & Pediatric Resident Experience</span>
+                        <div className="answerItem correct">
+                            <span className="answerItem__icon icon-correct"></span>
+                            <span className="answerItem__text">Clinical Fellow & Pediatric Resident Experience</span>
                         </div>
                         <div className="team-content">
                             <p className="team-content__top">
@@ -76,9 +76,9 @@ const OurTeamSection = () => (
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <div class="answerItem correct">
-                            <span class="answerItem__icon icon-correct"></span>
-                            <span class="answerItem__text">Trained Sociologist, researcher and educator</span>
+                        <div className="answerItem correct">
+                            <span className="answerItem__icon icon-correct"></span>
+                            <span className="answerItem__text">Trained Sociologist, researcher and educator</span>
                         </div>
                         <div className="team-content">
                             <p className="team-content__top">
