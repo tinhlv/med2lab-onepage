@@ -37,7 +37,7 @@ const OurTeamSection = () => (
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 pl-5">
                         <div className="answerItem correct">
                             <span className="answerItem__icon icon-correct"></span>
                             <span className="answerItem__text">Clinical Fellow & Pediatric Resident Experience</span>
@@ -75,7 +75,7 @@ const OurTeamSection = () => (
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 pr-5">
                         <div className="answerItem correct">
                             <span className="answerItem__icon icon-correct"></span>
                             <span className="answerItem__text">Trained Sociologist, researcher and educator</span>
