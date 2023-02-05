@@ -542,6 +542,12 @@
     color: var(--body-text);
     font-size: 18px;
     line-height: 28px;
+    > p {
+        margin-bottom: 30px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 
 // ----------------------------------------------------------------------
