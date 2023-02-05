@@ -112,11 +112,11 @@
 // Ensure Compliance Section
 // ----------------------------------------------------------------------
 .ensure-compliance-section {
-    margin-top: 80px;
+    margin-top: 60px;
     .path-top {
         position: absolute;
         left: 15%;
-        top: -33%;
+        bottom: 100%;
         z-index: -1;
     }
 }
