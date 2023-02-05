@@ -47,12 +47,12 @@ const Responsive = () => {
     };
     return (
         <Slider className="solutionsList" {...settings}>
-            <div className="solutionsList__item">
+            <div className="solutionsList__item hover-grayscale">
                 <a href='https://www.ucr.med2lab.com' target="_blank" title='UCR - An Interactive Curriculum For Universal Clinical Reasoning'>
                     <Image className="img-baner-right" src={logo01} fluid alt="ucr" />
                 </a>
             </div>
-            <div className="solutionsList__item">
+            <div className="solutionsList__item hover-grayscale">
                 <a href='https://www.kachi.med2lab.com' target="_blank" title='kachi.med2lab.com'>
                     <Image className="img-baner-right" src={logo02} fluid alt="kachi" />
                 </a>

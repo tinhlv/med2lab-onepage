@@ -14,10 +14,6 @@
     .partnersList {
         &__item {
             padding: 10px;
-            filter: grayscale(100%);
-            &:hover {
-                filter: grayscale(0%);
-            }
         }
     }
 }
@@ -196,10 +192,6 @@
     .partnersList {
         &__item {
             padding: 10px;
-            filter: grayscale(100%);
-            &:hover {
-                filter: grayscale(0%);
-            }
         }
     }
 }
@@ -328,10 +320,6 @@
             border-radius: 50%;
             box-shadow: 0 0 0 2px var(--dark-blue) inset, 0 0 0 4px #fff inset;
             margin-bottom: 12px;
-            filter: grayscale(100%);
-            &:hover {
-                filter: grayscale(0%);
-            }
         }
         &__role {
             font-size: 16px;
@@ -371,10 +359,6 @@
             box-shadow: 0 0 0 2px var(--dark-blue) inset, 0 0 0 4px #fff inset;
             margin-bottom: 12px;
             margin-left: auto;
-            filter: grayscale(100%);
-            &:hover {
-                filter: grayscale(0%);
-            }
         }
         &__role {
             font-weight: 500;
@@ -452,10 +436,6 @@
         border-radius: 50%;
         box-shadow: 0 0 0 2px var(--dark-blue) inset, 0 0 0 4px #fff inset;
         margin-bottom: 12px;
-        filter: grayscale(100%);
-        &:hover {
-            filter: grayscale(0%);
-        }
     }
     &__name {
         font-size: 20px;
@@ -593,5 +573,13 @@
     &.correct {
         border-color: $color-correct;
         background-color: $bg-correct;
+    }
+}
+
+.hover-grayscale {
+    filter: grayscale(100%);
+    transition: filter 600ms ease;
+    &:hover {
+        filter: grayscale(0%);
     }
 }

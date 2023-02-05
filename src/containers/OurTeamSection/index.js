@@ -22,7 +22,7 @@ const OurTeamSection = () => (
                 <div className="row teams-row">
                     <div className="col-md-6 position-relative bg-team-left">
                         <div className="team-member-left">
-                            <div className="team-member-left__avatar" style={{ backgroundImage: `url(${imageTeam02})` }}>
+                            <div className="team-member-left__avatar hover-grayscale" style={{ backgroundImage: `url(${imageTeam02})` }}>
                             </div>
                             <div className="team-member-left__role">
                                 <span className="name">Dr. Bao Truong</span><br />
@@ -61,7 +61,7 @@ const OurTeamSection = () => (
                     <div className="col-md-6 position-relative bg-team-right">
                         <Image className="path-top" src={imagePath01} fluid alt="path-top" />
                         <div className="team-member-right">
-                            <div className="team-member-right__avatar" style={{ backgroundImage: `url(${imageTeam04})` }}>
+                            <div className="team-member-right__avatar hover-grayscale" style={{ backgroundImage: `url(${imageTeam04})` }}>
                             </div>
                             <div className="team-member-right__role">
                                 <span className="name">Dr. Kumiko Endo</span><br />
@@ -100,7 +100,7 @@ const OurTeamSection = () => (
                     <div className="col-md-6 position-relative bg-team-left-2">
                         <Image className="path-top-2" src={imagePath02} fluid alt="path-top" />
                         <div className="team-member-left">
-                            <div className="team-member-left__avatar" style={{ backgroundImage: `url(${imageTeam03})` }}>
+                            <div className="team-member-left__avatar hover-grayscale" style={{ backgroundImage: `url(${imageTeam03})` }}>
                             </div>
                             <div className="team-member-left__role">
                                 <span className="name">Ashley Thai</span><br />
