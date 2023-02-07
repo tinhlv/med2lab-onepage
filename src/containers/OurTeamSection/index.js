@@ -15,8 +15,7 @@ const OurTeamSection = () => (
                     <p className="text-brand">Med<span>2</span>Lab</p>
                     <h3>Our Team</h3>
                 </div>
-                <p className="teams-heading__desc">The Med2Lab team bring together a desire toincrease patient saftey
-                    through improving healthcare workers learning experince</p>
+                <p className="teams-heading__desc">The Med2Lab team was brought together by a desire to increase patient safety and improve outcomes through elevating healthcare workers’ learning experience.</p>
             </div>
             <div className="teams-detail-section">
                 <div className="row teams-row">
@@ -50,8 +49,8 @@ const OurTeamSection = () => (
                             </p>
                             <div className="team-content__bottom">
                                 <p>Bao’s belief that there’s a better way to equip healthcare workers with what they need to
-                                    know and are able to do is what lead to Med2Lab’s formation.</p>
-                                <p>Our innovative platform developed out of Bao’s background and passion in tech and medicine.
+                                    know and are able to do is what leaed to Med2Lab’s formation.</p>
+                                <p>Our innovative platform was developed out of Bao’s background and passion in tech and medicine.
                                 </p>
                             </div>
                         </div>
@@ -70,8 +69,8 @@ const OurTeamSection = () => (
                         </div>
                         <div className="bubble-ps-bottom-coo">
                             <div className="bubble-arr-box arrow tr">
-                                <div className="content">We want to make learing something that actually changes someones
-                                    thinking or behaviour while also ensuring a safe and supportive learning environment.</div>
+                                <div className="content">We want to make learing something that actually changes someone’s
+                                    thinking or behavior while also ensuring a safe and supportive learning environment.</div>
                             </div>
                         </div>
                     </div>
@@ -86,9 +85,7 @@ const OurTeamSection = () => (
                                 empower learners in their continuous growth.
                             </p>
                             <div className="team-content__bottom">
-                                <p>Seeing Med2Lab's potential for transforming the current stagnant learning landscape into
-                                    a dynamic, human-centered learning ecosystem Kumiko joined Med2Lab as Co-Founder and
-                                    COO.</p>
+                                <p>Kumiko joined Med2Lab as Co-Founder and COO when she saw Med2Lab’s potential for transforming the current stagnant learning landscape into a dynamic, human-centered ecosystem of continuous growth.</p>
                                 <p>With her humanistic vision and meaningful client engagements, Kumiko has brought
                                     conceptual focus to Med2Lab's product so that our clients can derive unique, meaningful
                                     value from our system.</p>
@@ -111,7 +108,7 @@ const OurTeamSection = () => (
                             <div className="bubble-arr-box arrow tl">
                                 <div className="content">Ashleys passion for medicine and biotechnology are complemented by
                                     hours she spent shadowing in a community clinic. At Med2Lab she strives to change
-                                    peoples lives through innovation and compassion.</div>
+                                    people’s lives through innovation and compassion.</div>
                             </div>
                         </div>
                     </div>

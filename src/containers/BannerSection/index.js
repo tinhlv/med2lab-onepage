@@ -12,7 +12,7 @@ const BannerSection = () => (
                             Empowering learners through insightful feedback
                         </h1>
                         <h2 className="entry-sub-title">
-                            Improving Clinical Performance with our AI-Powered Interactive Platform
+                            An AI-powered interactive platform for improving clinical performance
                         </h2>
                     </div>
                 </div>
@@ -20,7 +20,7 @@ const BannerSection = () => (
                 <Image className="img-baner-right" src={imageRight} fluid alt="banner"/>
             </div>
             <div className='form-request margin-for-bottom'>
-                <p className="form-request__heading">Get a live demo of with the Med2Lab team</p>
+                <p className="form-request__heading">Request a live demo from the Med2Lab team</p>
                 <div className="email-form">
                     <input className="form-control email-form__input" type={`email`} placeholder="Enter your email address"/>
                     <button className="btn btn_primary email-form__btn">Request Demo <span className="icon-arrow-right ml-2"></span></button>

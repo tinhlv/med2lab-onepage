@@ -31,8 +31,8 @@ const lmsSection = () => (
                                 <span className="icon-lms sys-panel__heading-lg--icon"></span>Learning Management System
                             </div>
                         </div>
-                        <h3 className="heading heading-lg">Coach and assess mission critical and intangible skills of your workforce</h3>
-                        <div className="text-paragraph mt-5">Support your workforce with a scalable learning platform, utilising virtual preceptors to assess and coach intangible skills, like critical thinking and self-reflection, to enable the provision of high quality healthcare.</div>
+                        <h3 className="heading heading-lg">Coach and assess the intangible, mission-critical skills of your workforce</h3>
+                        <div className="text-paragraph mt-5">Empower your workforce and enable higher quality care with a scalable learning platform that utilizes virtual preceptors to assess and coach intangible skills, such as, critical thinking and communication.</div>
                     </div>
                 </div>
             </div>
@@ -76,10 +76,9 @@ const lmsSection = () => (
                         <Image src={imageEnsureCompliance} fluid alt="Ensure Compliance" />
                     </div>
                     <div className="col-md-6">
-                        <h3 className="heading heading-lg">Quickly engage learners and improve care quality and patient safety</h3>
+                        <h3 className="heading heading-lg">Automatic evaluation of diagnostic reasoning</h3>
                         <div className="text-paragraph mt-5">
-                            <p>Quickly capture knowledgebase and work-experience into highly relevant interactive training curricula that can be immediately applied to the workplace.</p>
-                            <p>Work policies and documentation becomes engaging an assesable, ensuring complaince and fair reimbursement.</p>
+                            <p>Improve care quality and patient safety via detailed feedback that targets critical skills, such as, reasoning and decision making.</p>
                         </div>
                     </div>
                 </div>
@@ -93,10 +92,9 @@ const lmsSection = () => (
                         <Image src={imageVirtualPreceptor} fluid alt="Virtual Preceptor" />
                     </div>
                     <div className="col-md-6">
-                        <h3 className="heading heading-lg">Bao, can you think of something appropriate to say here that encapsulate our AI tech?</h3>
+                        <h3 className="heading heading-lg">Coaching communication skills</h3>
                         <div className="text-paragraph mt-5">
-                            <p>Our virtual preceptors and AI technology evaluate and provide feedback on clinical reasoning.</p>
-                            <p>Our unique learning management system allows assesment of critical skill sets and matches the most qualified practioners with the best work assignments.</p>
+                            <p>Detailed feedback is given to learners on their communication and patient engagement habits to improve patient satisfaction and adherence, as well as to reduce conflicts and medical errors.</p>
                         </div>
                     </div>
                 </div>
@@ -110,7 +108,7 @@ const lmsSection = () => (
                         <Image src={imageBlob} fluid alt="blob" />
                     </div>
                     <div className="col-md-6">
-                        <h3 className="heading heading-lg">Improve patient satisfaction, reduce conflicts and medical errors</h3>
+                        <h3 className="heading heading-lg">Turn knowledge base and work experience into highly relevant, interactive training curricula</h3>
                         <div className="text-paragraph mt-5">
                             <p>Coach key skills, like communication. to improve patient satisfaction and adherence. I think we need something else to go along here to make this a little bit longer a paragraph</p>
                         </div>
@@ -151,7 +149,7 @@ const lmsSection = () => (
             <div className="container">
                 <h3 className="heading heading-lg">Contact the<br /> Med2Lab Team<br /> for a live demo</h3>
                 <div className='form-request'>
-                    <p className="form-request__heading">Get a live demo of with the Med2Lab team</p>
+                    <p className="form-request__heading">Request a live demo from the Med2Lab team</p>
                     <div className="email-form">
                         <input className="form-control email-form__input" type={`email`} placeholder="Enter your email address" />
                         <button className="btn btn_primary email-form__btn">Request Demo <span className="icon-arrow-right ml-2"></span></button>
