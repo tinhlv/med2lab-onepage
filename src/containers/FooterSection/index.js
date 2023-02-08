@@ -10,7 +10,7 @@ const FooterSection = () => {
                 <div className="row align-items-end">
                     <div className="col-md-6">
                         <p className="text-white">
-                            Connect with Med2Lab on <a className="text-white text-underline" href='LinkedIn' title='LinkedIn'><span class="icon-linkedin mr-1 ml-2"></span>LinkedIn</a>
+                            Connect with Med2Lab on <a className="text-white text-underline" target={`_blank`} href='https://www.linkedin.com/company/med2lab' title='LinkedIn'><span class="icon-linkedin mr-1 ml-2"></span>LinkedIn</a>
                             {/* <a className="text-white text-underline" href='https://app.med2lab.com' title='Med2Lab Learning Management System'>Med2Lab Learning Management System</a><br/>
                             <a className="text-white text-underline" href='/#team-section' title='#!'>Med2Lab Team</a> */}
                         </p>
