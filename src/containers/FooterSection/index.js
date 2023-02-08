@@ -16,7 +16,9 @@ const FooterSection = () => {
                         </p>
                     </div>
                     <div className="col-md-6 text-right">
-                        <Image className="img-baner-right" src={imageLogo2x} width="270px" fluid alt="logo 2x" />
+                        <a href='/' title='logo'>
+                            <Image className="img-baner-right" src={imageLogo2x} width="270px" fluid alt="logo 2x" />
+                        </a>
                     </div>
                 </div>
                 <Copyright text="© Med2Lab Inc. 2023. All Rights Reserved" />

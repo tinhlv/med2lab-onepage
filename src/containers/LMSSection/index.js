@@ -52,7 +52,7 @@ const lmsSection = () => (
                                 </div>
                             </div>
                             <div
-                                className="bubble-box__avatar hover-grayscale"
+                                className="bubble-box__avatar"
                                 style={{
                                     backgroundImage: `url(${imageTeam01})`
                                 }}
@@ -128,7 +128,7 @@ const lmsSection = () => (
                                 </div>
                             </div>
                             <div
-                                className="bubble-box__avatar hover-grayscale"
+                                className="bubble-box__avatar"
                                 style={{
                                     backgroundImage: `url(${imageTeam05})`
                                 }}
