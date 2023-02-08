@@ -10,16 +10,16 @@ const FooterSection = () => {
                 <div className="row align-items-end">
                     <div className="col-md-6">
                         <p className="text-white">
-                            Connect with Med2Lab on <a className="text-white text-underline" href='Twitter' title='LinkedIn'>#LinkedIn</a><br/>
-                            <a className="text-white text-underline" href='https://app.med2lab.com' title='Med2Lab Learning Management System'>Med2Lab Learning Management System</a><br/>
-                            <a className="text-white text-underline" href='/#team-section' title='#!'>Med2Lab Team</a>
+                            Connect with Med2Lab on <a className="text-white text-underline" href='LinkedIn' title='LinkedIn'><span class="icon-linkedin mr-1 ml-2"></span>LinkedIn</a>
+                            {/* <a className="text-white text-underline" href='https://app.med2lab.com' title='Med2Lab Learning Management System'>Med2Lab Learning Management System</a><br/>
+                            <a className="text-white text-underline" href='/#team-section' title='#!'>Med2Lab Team</a> */}
                         </p>
                     </div>
                     <div className="col-md-6 text-right">
                         <Image className="img-baner-right" src={imageLogo2x} width="270px" fluid alt="logo 2x" />
                     </div>
                 </div>
-                <Copyright text="© Med2Lab Inc. 2023. All Rights Reservered" />
+                <Copyright text="© Med2Lab Inc. 2023. All Rights Reserved" />
             </div>
         </div>
     )
