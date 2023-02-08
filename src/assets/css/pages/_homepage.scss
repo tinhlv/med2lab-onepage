@@ -114,6 +114,15 @@
 // ----------------------------------------------------------------------
 .ensure-compliance-section {
     margin-top: 60px;
+    .bg-image-blob {
+        background-image: url(../../images/background/bg_team_left.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left top;
+        height: 400px;
+        z-index: 0;
+        padding: 30px;
+    }
     .path-top {
         position: absolute;
         left: 15%;

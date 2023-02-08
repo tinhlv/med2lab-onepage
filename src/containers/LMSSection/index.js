@@ -71,7 +71,7 @@ const lmsSection = () => (
         <div className="ensure-compliance-section">
             <div className="container">
                 <div className="row flex-row-reverse">
-                    <div className="col-md-6 text-center position-relative">
+                    <div className="col-md-6 text-center position-relative bg-image-blob">
                         <Image className="path-top" src={imagePath02} fluid alt="path-top" />
                         <Image src={imageEnsureCompliance} fluid alt="Ensure Compliance" />
                     </div>
