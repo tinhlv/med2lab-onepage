@@ -5,7 +5,7 @@ import imageLogo2x from '../../assets/images/logo@2x.png'
 
 const FooterSection = () => {
     return (
-        <div className="footer-section">
+        <section className="footer-section">
             <div className="container">
                 <div className="row align-items-end">
                     <div className="col-md-6">
@@ -23,7 +23,7 @@ const FooterSection = () => {
                 </div>
                 <Copyright text="© Med2Lab Inc. 2023. All Rights Reserved" />
             </div>
-        </div>
+        </section>
     )
 }
 export default FooterSection

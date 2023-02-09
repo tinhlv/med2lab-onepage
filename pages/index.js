@@ -12,13 +12,10 @@ function index() {
   return (
     <MainLayout>
       <BannerSection />
-      <div className="main-content">
-        <PartnersSection />
-        <LMSSection />
-        <OurSolutionsSection />
-        <OurTeamSection />
-        <ScheduleCallSection />
-      </div>
+      <LMSSection />
+      <OurSolutionsSection />
+      <OurTeamSection />
+      <ScheduleCallSection />
       <FooterSection />
     </MainLayout>
   );

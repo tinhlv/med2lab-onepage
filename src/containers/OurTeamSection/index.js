@@ -8,7 +8,7 @@ import imagePath01 from '../../assets/images/path/pic_path_7.svg'
 import imagePath02 from '../../assets/images/path/pic_path_8.svg'
 
 const OurTeamSection = () => (
-    <div className='team_section' id="#team-section">
+    <section className='team_section' id="#team-section">
         <div className="container">
             <div className="text-center teams-heading">
                 <div className="teams-heading__title">
@@ -115,6 +115,6 @@ const OurTeamSection = () => (
                 </div>
             </div>
         </div>
-    </div> 
+    </section> 
 ) 
 export default OurTeamSection

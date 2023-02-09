@@ -15,8 +15,8 @@ import imagePath05 from '../../assets/images/path/pic_path_5.svg'
 import imagePath06 from '../../assets/images/path/pic_path_6.svg'
 
 const lmsSection = () => (
-    <div className="lms-section">
-        <div className="lms-intro-section">
+    <React.Fragment>
+        <section className="lms-intro-section">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 text-center">
@@ -36,8 +36,8 @@ const lmsSection = () => (
                     </div>
                 </div>
             </div>
-        </div>
-        <div className="lms-quote-section">
+        </section>
+        <section className="lms-quote-section">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 text-center">
@@ -67,8 +67,8 @@ const lmsSection = () => (
                     </div>
                 </div>
             </div>
-        </div>
-        <div className="ensure-compliance-section">
+        </section>
+        <section className="ensure-compliance-section">
             <div className="container">
                 <div className="row flex-row-reverse">
                     <div className="col-md-6 text-center position-relative bg-image-blob">
@@ -83,8 +83,8 @@ const lmsSection = () => (
                     </div>
                 </div>
             </div>
-        </div>
-        <div className="virtual-preceptor-section">
+        </section>
+        <section className="virtual-preceptor-section">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 text-center position-relative">
@@ -99,8 +99,8 @@ const lmsSection = () => (
                     </div>
                 </div>
             </div>
-        </div>
-        <div className="patient-satisfaction-section">
+        </section>
+        <section className="patient-satisfaction-section">
             <div className="container">
                 <div className="row flex-row-reverse">
                     <div className="col-md-6 text-center position-relative">
@@ -115,8 +115,8 @@ const lmsSection = () => (
                     </div>
                 </div>
             </div>
-        </div>
-        <div className="lms-quote-section mb-5">
+        </section>
+        <section className="lms-quote-section mb-5">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 position-relative">
@@ -143,8 +143,8 @@ const lmsSection = () => (
                     </div>
                 </div>
             </div>
-        </div>
-        <div className="contact-section position-relative">
+        </section>
+        <section className="contact-section position-relative">
             <Image className="path-top" src={imagePath06} fluid alt="path-top" />
             <div className="container">
                 <h3 className="heading heading-lg">Contact the<br /> Med2Lab Team<br /> for a live demo</h3>
@@ -157,7 +157,7 @@ const lmsSection = () => (
                 </div>
                 <p><span className="text-green">Find out more about the Med2Lab team</span>, our experience and why we’re passionate about our products.</p>
             </div>
-        </div>
-    </div>
+        </section>
+    </React.Fragment>
 )
 export default lmsSection

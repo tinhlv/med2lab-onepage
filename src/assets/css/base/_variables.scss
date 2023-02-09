@@ -23,7 +23,8 @@
 $bg-correct: #ecf7e6;
 $color-correct: #429448;
 
-a, button {
+a,
+button {
     &:hover {
         transition: 0.5s ease-in-out;
     }
@@ -33,7 +34,7 @@ a, button {
 // Font-family
 // ----------------------------------------------------------------------
 $default-font: "Poppins", sans-serif !important;
- 
+
 html {
     scroll-behavior: smooth;
 }
@@ -42,6 +43,8 @@ body {
     color: var(--body-text);
     font-family: $default-font;
     font-weight: 500;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
 }
 
 //------------------------------------------------------------
