@@ -62,11 +62,11 @@ const Responsive = () => {
 };
 
 const OurSolutionsSection = () => (
-    <div className='solutions_section'>
+    <section className='solutions_section'>
         <div className='container'>
             <h2 className='heading_section'>Our Solutions</h2>
             <Responsive />
         </div>
-    </div>
+    </section>
 )
 export default OurSolutionsSection
