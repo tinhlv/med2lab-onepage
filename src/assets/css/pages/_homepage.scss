@@ -1,7 +1,8 @@
 .Layout {
-    overflow-y: auto;
+    overflow: scroll;
+    height: 100vh;
+    scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory;
-    -webkit-overflow-scrolling: touch;
 }
 
 
