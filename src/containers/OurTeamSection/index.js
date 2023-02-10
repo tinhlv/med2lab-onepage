@@ -18,7 +18,7 @@ const OurTeamSection = () => (
                 <p className="teams-heading__desc">The Med2Lab team was brought together by a desire to increase patient safety and improve outcomes through elevating healthcare workers’ learning experience.</p>
             </div>
             <div className="teams-detail-section">
-                <div className="row teams-row">
+                <div className="section row teams-row">
                     <div className="col-md-6 position-relative bg-team-left">
                         <div className="team-member-left">
                             <div className="team-member-left__avatar" style={{ backgroundImage: `url(${imageTeam02})` }}>
@@ -56,7 +56,7 @@ const OurTeamSection = () => (
                         </div>
                     </div>
                 </div>
-                <div className="row flex-row-reverse teams-row mt-team-right-1">
+                <div className="section row flex-row-reverse teams-row mt-team-right-1">
                     <div className="col-md-6 position-relative bg-team-right">
                         <Image className="path-top" src={imagePath01} fluid alt="path-top" />
                         <div className="team-member-right">
@@ -93,7 +93,7 @@ const OurTeamSection = () => (
                         </div>
                     </div>
                 </div>
-                <div className="row teams-row mt-team-left-2">
+                <div className="section row teams-row mt-team-left-2">
                     <div className="col-md-6 position-relative bg-team-left-2">
                         <Image className="path-top-2" src={imagePath02} fluid alt="path-top" />
                         <div className="team-member-left">
