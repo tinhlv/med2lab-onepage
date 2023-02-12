@@ -73,7 +73,10 @@ section, .section {
 // Quote Section
 // ----------------------------------------------------------------------
 .lms-quote-section {
-    margin-top: 100px;
+    margin-top: 160px;
+    &.box-2 {
+        margin-top: 140px;
+    }
     .bubble-ps-top {
         position: absolute;
         left: 157px;
@@ -82,13 +85,13 @@ section, .section {
     .path-top {
         position: absolute;
         left: -56%;
-        top: -40%;
+        top: -80%;
         z-index: -1;
     }
     .path-top-2 {
         position: absolute;
-        right: -65%;
-        top: -35%;
+        right: -55%;
+        bottom: 35%;
         z-index: -1;
     }
     .sys-panel {
@@ -125,7 +128,7 @@ section, .section {
 // Ensure Compliance Section
 // ----------------------------------------------------------------------
 .ensure-compliance-section {
-    margin-top: 60px;
+    margin-top: 180px;
     .bg-image-blob {
         background-image: url(../../images/background/bg_team_left.png);
         background-repeat: no-repeat;
@@ -147,7 +150,7 @@ section, .section {
 // Virtual Preceptor Section
 // ----------------------------------------------------------------------
 .virtual-preceptor-section {
-    margin-top: 150px;
+    margin-top: 130px;
     .path-top {
         position: absolute;
         left: 50%;
@@ -284,17 +287,18 @@ section, .section {
 .team_section {
     .teams-row {
         &.mt-team-right-1 {
-            margin-top: 120px;
+            margin-top: 140px;
         }
         &.mt-team-left-2 {
-            margin-top: 150px;
+            margin-top: 160px;
         }
     }
     .path-top {
         position: absolute;
-        left: -10%;
-        top: -40%;
+        left: -35%;
+        top: -41%;
         z-index: -1;
+        max-width: 740px;
     }
     .path-top-2 {
         position: absolute;
@@ -318,7 +322,7 @@ section, .section {
         background-image: url("../../images/background/bg_team_left.png");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: left top;
+        background-position: right top;
         z-index: 0;
     }
     .bg-team-left-2 {

@@ -23,14 +23,14 @@ const lmsSection = () => (
                         <Image src={imageLms} fluid alt="lms" />
                     </div>
                     <div className="col-md-6">
-                        <div className="sys-panel">
+                        {/* <div className="sys-panel">
                             <div className="sys-panel__heading-sm">
                                 Med<span>2</span>Lab
                             </div>
                             <div className="sys-panel__heading-lg">
                                 <span className="icon-lms sys-panel__heading-lg--icon"></span>Learning Management System
                             </div>
-                        </div>
+                        </div> */}
                         <h3 className="heading heading-lg">Coach and assess the intangible, mission-critical skills of your workforce</h3>
                         <div className="text-paragraph mt-5">Empower your workforce and enable higher quality care with a scalable learning platform that utilizes virtual preceptors to assess and coach intangible skills, such as, critical thinking and communication.</div>
                     </div>
@@ -116,7 +116,7 @@ const lmsSection = () => (
                 </div>
             </div>
         </section>
-        <section className="lms-quote-section mb-5">
+        <section className="lms-quote-section box-2">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 position-relative">
