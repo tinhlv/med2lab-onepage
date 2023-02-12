@@ -1,11 +1,11 @@
 import React from 'react'
 import { Image } from 'react-bootstrap'
 import imageTeam02 from '../../assets/images/team/pic_team_02.png'
-import imageTeam03 from '../../assets/images/team/pic_team_03.png'
+// import imageTeam03 from '../../assets/images/team/pic_team_03.png'
 import imageTeam04 from '../../assets/images/team/pic_team_04.png'
 
-import imagePath01 from '../../assets/images/path/pic_path_7.svg'
-import imagePath02 from '../../assets/images/path/pic_path_8.svg'
+import imagePath07 from '../../assets/images/path/pic_path_7.svg'
+// import imagePath02 from '../../assets/images/path/pic_path_8.svg'
 
 const OurTeamSection = () => (
     <section className='team_section' id="#team-section">
@@ -58,7 +58,7 @@ const OurTeamSection = () => (
                 </div>
                 <div className="section row flex-row-reverse teams-row mt-team-right-1">
                     <div className="col-md-6 position-relative bg-team-right">
-                        <Image className="path-top" src={imagePath01} fluid alt="path-top" />
+                        <Image className="path-top" src={imagePath07} fluid alt="path-top" />
                         <div className="team-member-right">
                             <div className="team-member-right__avatar" style={{ backgroundImage: `url(${imageTeam04})` }}>
                             </div>
@@ -93,7 +93,7 @@ const OurTeamSection = () => (
                         </div>
                     </div>
                 </div>
-                <div className="section row teams-row mt-team-left-2">
+                {/* <div className="section row teams-row mt-team-left-2">
                     <div className="col-md-6 position-relative bg-team-left-2">
                         <Image className="path-top-2" src={imagePath02} fluid alt="path-top" />
                         <div className="team-member-left">
@@ -112,7 +112,7 @@ const OurTeamSection = () => (
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </section> 

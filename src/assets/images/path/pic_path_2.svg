@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="260px" height="155px" viewBox="0 0 260 155" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Content Path 2</title>
+<svg width="260px" height="327px" viewBox="0 0 260 327" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Content Path 4</title>
     <g id="Homepage-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Homepage---Desktop-(WIP)" transform="translate(-807.000000, -1918.000000)" stroke="#FCB900" stroke-width="4">
-            <g id="Section---LMS-Content" transform="translate(129.000000, 753.000000)">
+        <g id="Homepage---Desktop-(WIP)" transform="translate(-814.000000, -1915.000000)" stroke="#FCB900" stroke-width="4">
+            <g id="Section---LMS-Content" transform="translate(136.000000, 750.000000)">
                 <g id="Sub-Section---Quote-1" transform="translate(2.000000, 832.000000)">
-                    <path d="M678.289657,333 L678.289657,369 C678.289657,395.509668 699.779989,417 726.289657,417 L886,417 C912.509668,417 934,438.490332 934,465 L934,487.017656 L934,487.017656" id="Content-Path-2"></path>
+                    <g id="Content-Path-4" transform="translate(678.289657, 333.000000)">
+                        <path d="M-2.84217094e-14,0 L-2.84217094e-14,36 C-2.51752114e-14,62.509668 21.490332,84 48,84 L207.710343,84 C234.220011,84 255.710343,105.490332 255.710343,132 L255.710343,326.5 L255.710343,326.5" id="Content-Path-2"></path>
+                    </g>
                 </g>
             </g>
         </g>
